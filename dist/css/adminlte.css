@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #ffffff;
+  
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -11763,7 +11763,6 @@ body.sidebar-collapse:not(.sidebar-mini-md):not(.sidebar-mini) .main-header::bef
 }
 
 .brand-link .brand-image {
-  float: left;
   line-height: .8;
   margin-left: .8rem;
   margin-right: .5rem;
@@ -11773,7 +11772,6 @@ body.sidebar-collapse:not(.sidebar-mini-md):not(.sidebar-mini) .main-header::bef
 }
 
 .brand-link .brand-image-xs {
-  float: left;
   line-height: .8;
   margin-top: -.1rem;
   max-height: 33px;
@@ -20206,7 +20204,6 @@ html.maximized-card {
 .register-page {
   -ms-flex-align: center;
   align-items: center;
-  background: #e9ecef;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -20214,6 +20211,9 @@ html.maximized-card {
   height: 100vh;
   -ms-flex-pack: center;
   justify-content: center;
+  background-image: url(../img/background.png);
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .login-box,
